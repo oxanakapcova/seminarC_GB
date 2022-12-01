@@ -9,9 +9,9 @@ Console.WriteLine("Hello, Math_Pow!");
 2, 4 -> 16
 */
 System.Console.WriteLine("Enter number A:\t");
-ulong a = ulong.Parse(Console.ReadLine());
+ulong a = Convert.ToUInt64(Console.ReadLine());
 System.Console.WriteLine("Enter power number:\t");
-ulong b = ulong.Parse(Console.ReadLine());
+ulong b = Convert.ToUInt64(Console.ReadLine());
 ulong result =1;
 for (ulong i = 0; i <b; i++)
 {

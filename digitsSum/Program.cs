@@ -6,7 +6,7 @@
 */
 Console.WriteLine("Sum of digits!");
 System.Console.Write("Enter number:\t");
-int value = int.Parse(Console.ReadLine());
+int value = Convert.ToInt32(Console.ReadLine());
 int sumDigits = 0;
 while(value>=1)
 {
