@@ -1,4 +1,4 @@
-﻿Console.Clear();
+﻿//Console.Clear();
 Console.WriteLine("Hello, Array InPut!");
 //программа будет работать для любой длины массива,
 //который также введет пользователь
