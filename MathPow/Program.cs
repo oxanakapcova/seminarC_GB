@@ -10,7 +10,7 @@ Console.WriteLine("Hello, Math_Pow!");
 */
 System.Console.WriteLine("Enter number A:\t");
 ulong a = ulong.Parse(Console.ReadLine());
-System.Console.WriteLine("Enter pow number:\t");
+System.Console.WriteLine("Enter power number:\t");
 ulong b = ulong.Parse(Console.ReadLine());
 ulong result =1;
 for (ulong i = 0; i <b; i++)
